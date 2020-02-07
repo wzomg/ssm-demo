@@ -11,4 +11,4 @@ spring+springmvc+mybatis整合小案例
 4、tomcat版本号：9.0.27
 
 ### 快速上手
-先将`ssmbuild.sql`数据库文件导入数据库中，再将项目按maven方式导入IDEA编辑器中，修改db.properties文件中的mysql登录信息，再配置tomcat运行环境即可！
+先将`ssmbuild.sql`数据库文件导入数据库中，将项目按maven方式导入IDEA编辑器中，修改db.properties文件中的mysql登录信息，再配置tomcat运行环境即可！
