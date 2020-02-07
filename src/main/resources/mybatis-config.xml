@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!-- 配置数据源，交给spring去做 -->
+
+    <!-- STDOUT_LOGGING标准输出日志 -->
+    <settings>
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
+    </settings>
+
+    <!-- 配置实体类的别名 -->
+    <typeAliases>
+        <package name="com.zzw.pojo"/>
+    </typeAliases>
+
+    <!-- 配置dao层的映射文件 -->
+    <mappers>
+        <mapper resource="com/zzw/dao/BookMapper.xml"/>
+    </mappers>
+
+</configuration>
